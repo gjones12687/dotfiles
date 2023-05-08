@@ -1,0 +1,5 @@
+alias nvim="~/.local/appimages/nvim.appimage"
+alias vim="~/.local/appimages/nvim.appimage"
+alias code="flatpak run com.visualstudio.code"
+alias dbc="~/scripts/dbox-create.sh"
+alias dbe="distrobox enter"
