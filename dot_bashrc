@@ -17,8 +17,7 @@ export PATH
 
 # User specific aliases and functions
 export PATH="$HOME/.opt/zsh/bin:$PATH"
-alias nvim="~/.local/appimages/nvim.appimage"
-alias vim="~/.local/appimages/nvim.appimage"
+source ~/.bash_aliases
 if [ -d ~/.bashrc.d ]; then
 	for rc in ~/.bashrc.d/*; do
 		if [ -f "$rc" ]; then
